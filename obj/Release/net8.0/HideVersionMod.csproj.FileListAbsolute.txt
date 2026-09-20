@@ -1,0 +1,13 @@
+/home/karan/Desktop/shape_of_dreams/shape-of-dreams/bin/Release/net8.0/HideVersionMod.deps.json
+/home/karan/Desktop/shape_of_dreams/shape-of-dreams/bin/Release/net8.0/HideVersionMod.dll
+/home/karan/Desktop/shape_of_dreams/shape-of-dreams/bin/Release/net8.0/HideVersionMod.pdb
+/home/karan/Desktop/shape_of_dreams/shape-of-dreams/obj/Release/net8.0/HideVersionMod.csproj.AssemblyReference.cache
+/home/karan/Desktop/shape_of_dreams/shape-of-dreams/obj/Release/net8.0/HideVersionMod.GeneratedMSBuildEditorConfig.editorconfig
+/home/karan/Desktop/shape_of_dreams/shape-of-dreams/obj/Release/net8.0/HideVersionMod.AssemblyInfoInputs.cache
+/home/karan/Desktop/shape_of_dreams/shape-of-dreams/obj/Release/net8.0/HideVersionMod.AssemblyInfo.cs
+/home/karan/Desktop/shape_of_dreams/shape-of-dreams/obj/Release/net8.0/HideVersionMod.csproj.CoreCompileInputs.cache
+/home/karan/Desktop/shape_of_dreams/shape-of-dreams/obj/Release/net8.0/HideVersionMod.sourcelink.json
+/home/karan/Desktop/shape_of_dreams/shape-of-dreams/obj/Release/net8.0/HideVersionMod.dll
+/home/karan/Desktop/shape_of_dreams/shape-of-dreams/obj/Release/net8.0/refint/HideVersionMod.dll
+/home/karan/Desktop/shape_of_dreams/shape-of-dreams/obj/Release/net8.0/HideVersionMod.pdb
+/home/karan/Desktop/shape_of_dreams/shape-of-dreams/obj/Release/net8.0/ref/HideVersionMod.dll
