@@ -4,8 +4,8 @@
 	"publishedfileid"		"3805405320"
 	"contentfolder"		"/home/karan/Desktop/shape_of_dreams/shape-of-dreams/dist"
 	"previewfile"		"/home/karan/Desktop/shape_of_dreams/shape-of-dreams/thumbnail.jpg"
-	"title"		"Hide Version Number Overlay"
-	"description"		"An ultra-minimal, future-proof mod that cleanly hides the application version watermark from the screen layout."
+	"title"		"Hide Version Number"
+	"description"		"A minimal mod that hides the version number overlay"
 	"changenote"		"Initial release"
 	"visibility"		"0"
 }
