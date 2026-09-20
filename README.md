@@ -9,3 +9,8 @@ Mod(s) for Shape of Dreams
 ```bash
 dotnet build -c Release
 ```
+
+## Installation
+
+Once the compilation succeeds, navigate to the output build directory:
+`bin/Release/net8.0/`
