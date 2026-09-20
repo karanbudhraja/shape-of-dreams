@@ -11,6 +11,6 @@ Mod(s) for Shape of Dreams
 dotnet build -c Release
 ```
 
-## Installation
+## Output
 
 Once the compilation succeeds, the `DLL` file will be generated in the output build directory: `bin/Release/net8.0/`
