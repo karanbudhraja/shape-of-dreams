@@ -1,7 +1,7 @@
 {
   "id": "HideVersionMod",
-  "title": "Hide Version Number Overlay",
+  "title": "Hide Version Number",
   "version": "1.0.0",
   "author": "gamesandpizza",
-  "description": "An ultra-minimal, future-proof mod that cleanly hides the application version watermark from the screen layout."
+  "description": "A minimal mod that hides the version number overlay"
 }
