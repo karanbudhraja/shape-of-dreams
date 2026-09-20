@@ -9,4 +9,11 @@
     <!-- This pulls down a universally compatible set of Unity definitions from the web -->
     <PackageReference Include="UnityEngine.Modules" Version="2021.3.33" IncludeAssets="compile" />
   </ItemGroup>
+
+  <ItemGroup>
+	<!-- This automatically copies your json and thumbnail over when you build -->
+	<None Include="modinfo.json" CopyToOutputDirectory="PreserveNewest" />
+	<None Include="thumbnail.png" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
 </Project>
