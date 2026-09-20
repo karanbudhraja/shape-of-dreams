@@ -13,7 +13,7 @@
   <ItemGroup>
 	<!-- This automatically copies your json and thumbnail over when you build -->
 	<None Include="modinfo.json" CopyToOutputDirectory="PreserveNewest" />
-	<None Include="thumbnail.png" CopyToOutputDirectory="PreserveNewest" />
+	<None Include="thumbnail.jpg" CopyToOutputDirectory="PreserveNewest" />
   </ItemGroup>
 
 </Project>
