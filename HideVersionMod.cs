@@ -1,15 +1,30 @@
 using System;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 namespace HideVersionMod
 {
-    public class ModEntry
+    // Inheriting from ModBehaviour automatically attaches this script to the game engine layout
+    public class ModEntry : ModBehaviour
     {
-        public void Initialize()
+        private void Awake()
         {
+            Debug.Log("Hiding version number watermark overlay: " + mod.metadata.id);
+            
+            // Listen for scene switches to continuously verify the watermark stays hidden
             SceneManager.sceneLoaded += OnSceneLoaded;
+            
+            // Run the hide logic immediately on boot layout
             HideVersionUI();
+        }
+
+        private void OnDestroy()
+        {
+            // Clean up scene references to support live reload cleanly
+            SceneManager.sceneLoaded -= OnSceneLoaded;
+            Debug.Log("Restoring version number layout hooks: " + mod.metadata.id);
         }
 
         private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
@@ -19,12 +34,13 @@ namespace HideVersionMod
 
         private void HideVersionUI()
         {
-            // This searches for the component by text name after the game boots up
+            // Your excellent reflection code targeting the application component
             Type targetType = Type.GetType("UI_ApplicationVersion, Assembly-CSharp");
             
             if (targetType != null)
             {
-                var versionComponent = UnityEngine.Object.FindAnyObjectByType(targetType) as Component;
+                // Unity 2021 uses FindObjectOfType (FindAnyObjectByType requires Unity 2022+)
+                var versionComponent = UnityEngine.Object.FindObjectOfType(targetType) as Component;
                 
                 if (versionComponent != null)
                 {
