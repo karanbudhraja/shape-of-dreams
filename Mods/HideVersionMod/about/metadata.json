@@ -1,0 +1,12 @@
+{
+  "id": "com.gamesandpizza.hideversionmod",
+  "name": "HideVersionMod",
+  "author": "gamesandpizza",
+  "modVer": "1.0",
+  "supportedGameVer": [
+    "*"
+  ],
+  "assemblies": [
+    "bin/Debug/netstandard2.1/HideVersionMod.dll"
+  ]
+}
